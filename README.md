@@ -14,3 +14,16 @@
 4. В этом пункте сравниваем  значение переменной "мах" со значение числа "С", и если число "С" оказывается больше значения переменной "мах", то записываем его значение в переменную.
 5. Печатаем, либо выводим на экран, значение переменной "мах".
 6. Выход из прграммы.
+
+Console.WriteLine("Введите число A");
+int numberA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число B");
+int numberB = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число C");
+int numberC = Convert.ToInt32(Console.ReadLine());
+int max = 1;
+if (numberA > max) max = numberA;
+if (numberB > max) max = numberB;
+if (numberC > max) max = numberC;
+Console.Write("max= ");
+Console.WriteLine(max);
